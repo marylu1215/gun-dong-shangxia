@@ -15,6 +15,8 @@
 		FAEBC452222FCDB900ECCAE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEBC451222FCDB900ECCAE9 /* main.m */; };
 		FAEBC45C222FCDB900ECCAE9 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEBC45B222FCDB900ECCAE9 /* _______Tests.m */; };
 		FAEBC467222FCDB900ECCAE9 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEBC466222FCDB900ECCAE9 /* _______UITests.m */; };
+		FAEBC479222FCE0B00ECCAE9 /* UIView+HHAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEBC477222FCE0B00ECCAE9 /* UIView+HHAddition.m */; };
+		FAEBC47A222FCE0B00ECCAE9 /* MarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEBC478222FCE0B00ECCAE9 /* MarqueeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		FAEBC462222FCDB900ECCAE9 /* 新闻快速滚动栏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新闻快速滚动栏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEBC466222FCDB900ECCAE9 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		FAEBC468222FCDB900ECCAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEBC475222FCE0B00ECCAE9 /* UIView+HHAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HHAddition.h"; sourceTree = "<group>"; };
+		FAEBC476222FCE0B00ECCAE9 /* MarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeView.h; sourceTree = "<group>"; };
+		FAEBC477222FCE0B00ECCAE9 /* UIView+HHAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HHAddition.m"; sourceTree = "<group>"; };
+		FAEBC478222FCE0B00ECCAE9 /* MarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,11 @@
 		FAEBC441222FCDB700ECCAE9 /* 新闻快速滚动栏 */ = {
 			isa = PBXGroup;
 			children = (
+				FAEBC476222FCE0B00ECCAE9 /* MarqueeView.h */,
+				FAEBC478222FCE0B00ECCAE9 /* MarqueeView.m */,
+				FAEBC475222FCE0B00ECCAE9 /* UIView+HHAddition.h */,
+				FAEBC477222FCE0B00ECCAE9 /* UIView+HHAddition.m */,
+				FAEBC474222FCE0300ECCAE9 /* New Group */,
 				FAEBC442222FCDB700ECCAE9 /* AppDelegate.h */,
 				FAEBC443222FCDB700ECCAE9 /* AppDelegate.m */,
 				FAEBC445222FCDB700ECCAE9 /* ViewController.h */,
@@ -130,6 +141,13 @@
 				FAEBC468222FCDB900ECCAE9 /* Info.plist */,
 			);
 			path = "新闻快速滚动栏UITests";
+			sourceTree = "<group>";
+		};
+		FAEBC474222FCE0300ECCAE9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEBC447222FCDB700ECCAE9 /* ViewController.m in Sources */,
+				FAEBC47A222FCE0B00ECCAE9 /* MarqueeView.m in Sources */,
 				FAEBC452222FCDB900ECCAE9 /* main.m in Sources */,
+				FAEBC479222FCE0B00ECCAE9 /* UIView+HHAddition.m in Sources */,
 				FAEBC444222FCDB700ECCAE9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
